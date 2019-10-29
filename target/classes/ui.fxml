@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="104.0" prefWidth="297.0" style="-fx-background-color: DarkBlue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.uiController.SimpleUiController">
+   <Label text="Hello world!" textFill="WHITE">
+      <font>
+         <Font size="28.0" />
+      </font>
+   </Label>
+
+      <Button fx:id="button" style="-fx-background-color: purple;" text="Button" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font size="28.0" />
+            </font>
+      </Button>
+
+      <Label fx:id="label" text="Label" textFill="WHITE" wrapText="true">
+            <font>
+                  <Font size="28.0" />
+            </font>
+      </Label>
+</VBox>
